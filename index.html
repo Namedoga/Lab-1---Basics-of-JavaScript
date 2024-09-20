@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab #1 - Basics of JavaScript </title>
+</head>
+<body>
+
+    <h1>Lab #1 - Basics of JavaScript</h1>
+
+
+    <script> var studentName = "Othniel"; // declaring student's name
+        var studentAge = "27"; // declaring student's age
+        var isEnrolled = "True"; // declaring student's enrollment
+        
+        // example of Boolean
+        
+        let found = true;
+        let lost = false;
+        
+        
+        console.log(found);
+        console.log(lost );
+        console.log(studentName); 
+        console.log(studentAge ); 
+        
+        // Example of Sting
+        let firstName = "Othniel";
+        let middleName = 'Mathew';
+        let lastName = `Powell`;
+        
+        console.log(firstName)
+        console.log(middleName)
+        console.log(lastName);
+        
+        // Number
+        let distance = 444.4; // a floating-point number
+        
+        // BigInt 
+        let largeNumber =4444477788888441n; // a large integer beyond the safe limit for Number
+        
+        console.log(distance);
+        console.log(largeNumber );
+        
+        let Fruits = ['Apples', 'Pears', 'Grapes'];
+        console.log(Fruits[0]); // Accesses the first element, output: 'Apples'
+        Fruits.push('berrys'); // Adds a new element at the end
+        console.log(Fruits); // Output: ['Apples', 'Pears', 'Grapes', 'Berrys']
+        Fruits.pop();
+        console.log(Fruits);
+        
+        // Creates a new object, person, with two properties, age and name.
+        
+        let person = {
+            firstName: "Othniel",
+            lastName: "Powell",
+            age: 27
+          };
+          
+          console.log(person.firstName);
+        
+        console.log(4 * 4); // Multiplication,
+        console.log(44 / 4); // Division
+        console.log(44 % 2); // Modulus (Remainder)
+        
+        console.log(4 + 4); // Addition
+        console.log(14 - 2); // Subtraction
+        
+        let y = '4';
+        console.log(y + 3);
+        let x = '6';
+        console.log(+x + 2);
+        
+        
+        let a = 4;
+        console.log("Initial value: ", a);
+        
+        a += 4;
+        console.log("After += 4: ", a);
+        
+        a -= 4;
+        console.log("After -= 4: ", a);
+        
+        a *= 5;
+        console.log("After *= 5: ", a);
+        
+        a /= 5;
+        console.log("After /= 5: ", a);
+        
+        a %= 5;
+        console.log("After %= 5: ", a);
+        
+        
+        console.log("10" == y); // Equality
+        console.log("10" === 3); // Strict equality
+        console.log(x != y); // Inequality
+        console.log(x < y); // Less than
+        console.log(x > y); // Greater than
+        console.log(x <= y); // Less than or equal to
+        console.log(x >= y); // Greater than or equal to
+
+
+    </script>
+</body>
+</html>
